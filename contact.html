@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact page</title>
+  </head>
+  <body>
+    <a href="index.html">Return.</a>
+    <h1>Personal information</h1>
+    <h3>Name: John van den Heuvel</h3>
+    <h3>Born: 10-04-1996</h3>
+    <h3>Phone number: +31 6 36310755</h3>
+    <h3>Email: johnnijmegen@hotmail.com</h3>
+
+    <hr />
+
+    <form
+      action="mailto:johnnijmegen@hotmail.com"
+      method="post"
+      enctype="text/plain"
+    >
+      <label for="email">email</label>
+      <input type="email" name="email" id="email" /> <br />
+      <label for="textarea">message</label>
+      <textarea name="text" id="text" cols="30" rows="10"></textarea> <br />
+      <input type="submit" value="submit!" />
+    </form>
+  </body>
+</html>
