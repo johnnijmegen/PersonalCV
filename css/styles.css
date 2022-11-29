@@ -1,0 +1,161 @@
+body {
+	margin: 0;
+	text-align: center;
+	font-family: "Quicksand", sans-serif;
+	color: rgb(52, 52, 52);
+}
+
+.main-container {
+	position: relative;
+	height: 100vh;
+	background-color: #aff6f8c2;
+
+	/* first font is first choice. */
+}
+
+h1 {
+	font-family: "Dancing Script", cursive;
+	font-size: 6rem;
+	margin: 100px auto 0 auto;
+	color: #66bfbf;
+}
+
+h2 {
+	font-size: 2.5rem;
+	color: #66bfbf;
+	font-weight: normal;
+	margin: 60px 0 30px;
+}
+
+h3 {
+	color: #11999e;
+	margin: 30px;
+}
+
+a {
+	color: #11999e;
+}
+
+.profile-img {
+	border-radius: 100%;
+	width: 250px;
+}
+
+p {
+	margin: 0;
+	line-height: 1.5;
+}
+
+strong {
+	font-weight: 600;
+}
+
+#mountain {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.top-cloud {
+	margin-top: 50px;
+	position: relative;
+	left: 200px;
+}
+
+.bottom-cloud {
+	margin-top: 20px;
+	position: relative;
+	right: 250px;
+}
+
+.profile {
+	margin: 0px auto;
+	padding: 100px 0;
+	width: 35%;
+}
+
+hr {
+	width: 5%;
+	border: 8px dotted rgb(206, 206, 206);
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+}
+
+.skills {
+	width: 100%;
+	padding: 100px 0;
+}
+
+.skill-row {
+	width: 50%;
+	margin: 100px auto;
+	text-align: left;
+	line-height: 1.5;
+}
+
+.skill-row h3 {
+	margin: 10px;
+}
+
+.right {
+	text-align: right;
+}
+
+.pc {
+	width: 25%;
+	float: left;
+	margin-right: 25px;
+}
+
+.chillies {
+	float: right;
+	width: 25%;
+	margin-left: 25px;
+}
+
+.contact-me {
+	padding: 150px 0px;
+	width: 35%;
+	margin: 0 auto;
+}
+
+.btn {
+	border-radius: 8px;
+	padding: 10px 30px;
+	display: inline-block;
+	margin: 50px;
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	background: linear-gradient(90deg, #11cdd4, #11999e);
+}
+
+.btn:hover {
+	cursor: pointer;
+	background: linear-gradient(90deg, #30e3cb, #2bc4ad);
+}
+
+.bottom-container {
+	background-color: #66bfbf;
+	padding: 40px;
+	box-sizing: border-box;
+	margin-top: 50px;
+}
+
+.footer-link {
+	color: #11999e;
+	text-decoration: none;
+	margin: 0 25px;
+	font-size: 1.2rem;
+}
+
+.bottom-container p {
+	color: white;
+	padding: 25px 0;
+	font-size: 0.8rem;
+}
+
+.footer-link:hover {
+	color: white;
+}
